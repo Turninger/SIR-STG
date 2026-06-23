@@ -9,6 +9,10 @@ The core idea is to model three types of entities (Stocks, News, Industries) and
 - **News–Stock edges** (sentiment): news sentiment towards a specific stock, weighted by FinBERT sentiment confidence
 - **Industry–Stock edges** (market ratio): industry classification membership, weighted by market capitalization ratio
 
+## Datasets
+Raw dataset and Processed datasets are:
+https://drive.google.com/drive/folders/1m8uaBiFQUcjW2PsOWgKR1eleK3AmVBCC?usp=drive_link
+
 ## Architecture
 
 ```
