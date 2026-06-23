@@ -1,0 +1,19 @@
+
+# 忽略finbert
+utils/finbert_tone_chinese
+
+#忽略模型权重
+n_day_hetero_graph_dataset.pt
+hetero_graph_dataset.pt
+
+#忽略数据集
+data_raw
+data_processed
+result
+dataset_reports
+
+# PyTorch 模型文件
+*.pt
+*.pth
+*.xls
+*.csv

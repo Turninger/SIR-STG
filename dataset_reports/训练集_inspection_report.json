@@ -1,0 +1,40 @@
+{
+  "dataset": "\u8bad\u7ec3\u96c6",
+  "total_graphs": 135,
+  "node_types": [
+    "industry",
+    "stock",
+    "news"
+  ],
+  "edge_types": [
+    "('news', 'sentiment', 'stock')",
+    "('stock', 'link', 'stock')",
+    "('industry', 'marketratio', 'stock')"
+  ],
+  "total_node_counts": {},
+  "feature_dimensions": {
+    "stock": {
+      "min": 8,
+      "max": 8,
+      "consistent": true
+    },
+    "industry": {
+      "min": 1,
+      "max": 1,
+      "consistent": true
+    },
+    "news": {
+      "min": 1,
+      "max": 1,
+      "consistent": true
+    }
+  },
+  "missing_features": {},
+  "empty_edges": {},
+  "isolated_nodes": {},
+  "data_quality_issues": {
+    "nan_inf_issues": 0,
+    "metadata_issues": 0
+  },
+  "recommendations": []
+}
